@@ -2,7 +2,7 @@ sudo: required
 services:
   - docker
 before_install:
-  - docker pull yshalsager/cyanogenmod:latest
+  - docker pull yshalsager/lineageos:14.1
 before_script:
 - cd $HOME && mkdir twrp
 - wget -q https://github.com/TwrpBuilder/twrp-sources/releases/download/omni_twrp-7.1.2-20180326-norepo/omni_twrp-7.1.2-20180326-norepo.tar.xz
